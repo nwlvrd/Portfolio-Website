@@ -7,10 +7,10 @@ export default function About() {
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
               Hi, I'm Nick
-              <br className="hidden lg:inline-block" />I love to solve complex problems.
+              <br className="hidden lg:inline-block" />I love to learn.
             </h1>
             <p className="mb-8 leading-relaxed">
-              I'm an outgoing and collaborative student at the University of Michigan, currently studying computer science and math. 
+              I'm an outgoing and collaborative CS and Math student at the University of Michigan. 
               Currently, I'm a software engineer intern at Puppod, a software analyst at Atlas Digital Consulting, 
               and Director of CS Program at Michigan Mentors.  
             </p>
@@ -31,7 +31,7 @@ export default function About() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="./coding.svg"
+              src="./2023-24headshot.jpg.JPG"
             />
           </div>
         </div>
