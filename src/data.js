@@ -60,4 +60,5 @@ export const skills = [
   "Julia",
   "Firestore",
   "MATLAB", 
+  "Git"
 ];

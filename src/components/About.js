@@ -10,8 +10,8 @@ export default function About() {
               <br className="hidden lg:inline-block" />I love to learn.
             </h1>
             <p className="mb-8 leading-relaxed">
-              I'm an outgoing and collaborative CS and Math student at the University of Michigan. 
-              Currently, I'm a software engineer intern at Puppod, a software analyst at Atlas Digital Consulting, 
+              I'm an outgoing and collaborative CS + Math student at the University of Michigan. 
+              Currently, I'm a software engineer intern at Puppod, software analyst at Atlas Digital Consulting, 
               and Director of CS Program at Michigan Mentors.  
             </p>
             <div className="flex justify-center">
@@ -29,7 +29,7 @@ export default function About() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded border-2 border-green-500"
               alt="hero"
               src="./2023-24headshot.jpg.JPG"
             />
