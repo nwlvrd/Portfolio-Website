@@ -14,8 +14,7 @@ export default function About() {
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[ " an Aspiring Software Engineer",
-                " a skilled C++ Developer",
-                " a Lifelong Learner",
+                " a Skilled C++ Developer",
                 " happy to see you here!",
                 " a Jazz Tenor Saxophone Player"]}
                 loop={5}
