@@ -19,7 +19,7 @@ export const projects = [
     title: "Saphran Inc Data Dashboard",
     subtitle: "JavaScript, HTML/CSS",
     description:
-      "Architected responsive data visualization dashboard tailored for asset planning and long-term profit forcasting. Improved menu system filtering over 30,000+ lines of compony data. Code availible upon request.",
+      "Architected responsive data visualization dashboard tailored for asset planning and long-term profit forcasting. Improved menu system filtering over 30,000+ lines of company data.",
     image: "./Saphran.png",
     link: "saphran.com",
   },

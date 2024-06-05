@@ -20,7 +20,7 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Currently
           </a>
-          <a href="./Resume.pdf" target="_blank" rel="noreferrer">
+          <a href="./Resume.pdf" target="_blank" rel="noreferrer" className="text-green-500 font-bold">
             Resume
           </a>
         </nav>
