@@ -27,7 +27,7 @@ export default function About() {
             </h1>
             <p className="mb-8 leading-relaxed">
               I am an outgoing and collaborative CS + Math student at the University of Michigan. 
-              Currently, I'm a software engineer intern at Puppod, software analyst at Atlas Digital Consulting, 
+              Currently, I'm a software engineer intern at PupPod, software analyst at Atlas Digital Consulting, 
               and Director of CS Program at Michigan Mentors. 
             </p>
             <p className="mb-8 leading-relaxed">
