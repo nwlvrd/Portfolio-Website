@@ -33,32 +33,26 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
+export const technologies = [
+  {name : "React.js", icon : "./icons8-react-96.png"},
+  {name: "Axios", icon : "./axios.png"},
+  {name: "scikit-learn", icon : "./scikit-learn.png"},
+  {name: "Next.js", icon : "./next-js.png"},
+  {name: "React Native", icon: "./react-native.png"},
+  {name: "Flask", icon : "flask.png"},  
+  {name: "Firebase & Firebase Authentication", icon: "./icons8-google-firebase-console-96.png"},
+  {name: "Firestore", icon: "./icons8-cloud-firestore-96.png"},
+  {name: "Node.js", icon: "./nodejs.png"},
+  {name: "Git", icon: "./icons8-git-96.png"}
 ];
 
-export const skills = [
-  {name : "JavaScript", icon: "./icons8-javascript-96.png"},
-  {name : "React.js", icon : "./icons8-react-96.png"},
+export const languages = [
   {name: "C++", icon: "./icons8-c++-96.png"},
-  {name: "TailwindCSS", icon: "./tailwind-css-icon.png"},
-  {name: "HTML/CSS", icon: "./icons8-html-96.png"},
-  {name: "Firebase & Firebase Authentication", icon: "./icons8-google-firebase-console-96.png"},
+  {name: "Python", icon: "./python-50.png"},
+  {name : "JavaScript", icon: "./icons8-javascript-96.png"},
+  {name: "TypeScript", icon: "./typescript-48.png"},
+  {name: "HTML", icon: "./html.png"},
+  {name: "CSS", icon: "./css-3.png"},
   {name: "Julia", icon: "./julia.96x96.png"}, 
-  {name: "Firestore", icon: "./icons8-cloud-firestore-96.png"},
   {name: "MATLAB", icon: "./icons8-matlab-96.png"},
-  {name: "Git", icon: "./icons8-git-96.png"}
 ];

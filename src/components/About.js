@@ -3,20 +3,18 @@ import { Typewriter } from "react-simple-typewriter";
 
 
 export default function About() {
-
     return (
       <section id="about">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              Hi, I'm Nick <br></br>
+              Hello, I'm Nicholas <br></br>
               I'm 
-              {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[ " an Aspiring Software Engineer",
                 " a Skilled C++ Developer",
                 " happy to see you here!",
-                " a Jazz Tenor Saxophone Player"]}
+                " a Michigan Wolverine"]}
                 loop={5}
                 cursor
                 cursorStyle='|'
@@ -26,12 +24,9 @@ export default function About() {
               />
             </h1>
             <p className="mb-8 leading-relaxed">
-              I am an outgoing and collaborative CS + Math student at the University of Michigan. 
-              Currently, I'm a software engineer intern at PupPod, software analyst at Atlas Digital Consulting, 
-              and Director of CS Program at Michigan Mentors. 
-            </p>
-            <p className="mb-8 leading-relaxed">
-              Outside of academics, I'm a part of the U of M Water Polo Team and I enjoy skiing, traveling, working out, and spending time with friends and famiy.
+              Glad to see you here! I'm an computer science & math student at the University of Michigan, Ann Arbor. 
+              Currently, I'm a Product Manager at <a className="text-blue-500 underline" href="https://miniextensions.com/">miniExtensions</a> and 
+              Director of the CS Program at <a className="text-blue-500 underline" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>. 
             </p>
             <div className="flex justify-center">
               <a
