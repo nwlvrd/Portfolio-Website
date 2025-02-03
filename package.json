@@ -2,14 +2,26 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },  
   "dependencies": {
-    "@craco/craco": "^5.9.0",
+    "@craco/craco": "^7.1.0",
     "@heroicons/react": "^1.0.1",
     "emoji-dictionary": "^1.0.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1"
   },
   "scripts": {
@@ -25,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
