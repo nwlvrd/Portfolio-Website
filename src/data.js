@@ -1,11 +1,25 @@
 export const projects = [
   {
+    title: "Puppod ML API",
+    subtitle: "Python, Flask, scikit-learn, Pandas, Heroku, Supabase",
+    description: "Developed and deployed a full-stack machine learning application using Flask, scikit-learn, and React.js to analyze 130k+ user game sessions, predict key user data features, and deliver real-time insights via a Heroku-hosted API.",
+    image: "./Puppod-ML.png",
+    link: "https://github.com/kaavlu/puppod-ml/"
+  },
+  {
+    title: "Simbi Mobile App",
+    subtitle: "React Native, TypeScript, Android Studio, Expo",
+    description: "Constructed and styled over 16 app screens and components for non-profit Simbi (YC S16) modernizing app experience for 1k+ active users.",
+    image: "./Simbu-image.png",
+    link: "https://simbi.com/"
+  },
+  {
     title: "Application and Recruitment Portal",
-    subtitle: "React, TailwindCSS, Firebase, Firebase Authentication, Firestore",
+    subtitle: "React, TailwindCSS, Firebase, Firestore",
     description:
       "Full-stack web application built for club recruitment. Implemented 20+ dynamic front-end elements and a back-end scaling to 200+ applicants. Code availible upon request.",
-    image: "./React App - Google Chrome 2024-03-11 19-40-55.gif",
-    link: "https://atlasdigital.org/",
+    image: "./AD-Portal-IMG.png",
+    link: "https://www.portal.atlasdigital.org/",
   },
   {
     title: "Michigan Mentors",

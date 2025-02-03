@@ -11,10 +11,10 @@ export default function About() {
               Hello, I'm Nicholas <br></br>
               I'm 
               <Typewriter
-                words={[ " an Aspiring Software Engineer",
-                " a Skilled C++ Developer",
+                words={[ " a SWE Intern at Datadog",
+                " interested in systems, networking, and AI",
                 " happy to see you here!",
-                " a Michigan Wolverine"]}
+                " a Michigan Wolverine, Go Blue!"]}
                 loop={5}
                 cursor
                 cursorStyle='|'
@@ -24,9 +24,12 @@ export default function About() {
               />
             </h1>
             <p className="mb-8 leading-relaxed">
-              Glad to see you here! I'm an computer science & math student at the University of Michigan, Ann Arbor. 
-              Currently, I'm a Product Manager at <a className="text-blue-500 underline" href="https://miniextensions.com/">miniExtensions</a> and 
-              Director of the CS Program at <a className="text-blue-500 underline" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>. 
+              Hello! I'm an computer science & math student at the University of Michigan Ann Arbor. 
+              Currently, I'm an Software Analyst with <a className="text-green-500" href="https://www.withzephyr.com/">Zephyr</a> building a data pipeline
+              for their <a className="text-green-500" href="https://www.withzephyr.com/#features">novel computer vision model</a>. 
+              I'm also the Director and Co-Founder of the CS Program at <a className="text-green-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
+              
+              This summer, I'm excited to be working as a software engineering intern at <a className="text-Datadog" href="https://www.datadoghq.com/">Datadog</a>. 
             </p>
             <div className="flex justify-center">
               <a
