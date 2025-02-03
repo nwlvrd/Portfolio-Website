@@ -1,14 +1,16 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./public/index.html"
+    "./public/index.html",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        'Datadog': '#632CA6'
+        'datadog': '#632CA6'
       }, 
     }
   },

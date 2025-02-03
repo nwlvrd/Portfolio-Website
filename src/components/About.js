@@ -29,7 +29,7 @@ export default function About() {
               for their <a className="text-green-500" href="https://www.withzephyr.com/#features">novel computer vision model</a>. 
               I'm also the Director and Co-Founder of the CS Program at <a className="text-green-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
               
-              This summer, I'm excited to be working as a software engineering intern at <a className="text-Datadog" href="https://www.datadoghq.com/">Datadog</a>. 
+              This summer, I'm excited to be working as a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a>. 
             </p>
             <div className="flex justify-center">
               <a
