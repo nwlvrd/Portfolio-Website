@@ -17,6 +17,16 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
+          <a
+            href="https://github.com/nwlvrd"
+            className="mr-5 hover:text-white">
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/nicholas-walvoord/"
+            className="mr-5 hover:text-white">
+            LinkedIn
+          </a>
           <a href="./Nicholas_Walvoord_resume.pdf" target="_blank" rel="noreferrer" className="text-green-500 font-bold">
             Resume
           </a>
@@ -27,6 +37,7 @@ export default function Navbar() {
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
+        
       </div>
     </header>
   );

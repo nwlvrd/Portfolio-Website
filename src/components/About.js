@@ -12,24 +12,29 @@ export default function About() {
               I'm 
               <Typewriter
                 words={[ " a SWE Intern at Datadog",
-                " interested in systems, networking, and AI",
+                " interested in AI/ML products, scalable backend systems, and high-preformance computing.", 
                 " happy to see you here!",
                 " a Michigan Wolverine, Go Blue!"]}
                 loop={5}
                 cursor
-                cursorStyle='|'
+                cursorStyle='/'
                 typeSpeed={60}
                 deleteSpeed={50}
                 delaySpeed={1500}
               />
             </h1>
             <p className="mb-8 leading-relaxed">
-              Hello! I'm an computer science & math student at the University of Michigan Ann Arbor. 
-              Currently, I'm an Software Analyst with <a className="text-green-500" href="https://www.withzephyr.com/">Zephyr</a> building a data pipeline
-              for their <a className="text-green-500" href="https://www.withzephyr.com/#features">novel computer vision model</a>. 
-              I'm also the Director and Co-Founder of the CS Program at <a className="text-green-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
-              
-              This summer, I'm excited to be working as a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a>. 
+              Hello! I'm a computer science & math student at the University of Michigan Ann Arbor 
+              and the Director and Co-Founder of the CS Program 
+              at <a className="text-green-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
+              <br></br><br></br>
+              This past semester, I worked the startup <a className="text-green-500" href="https://www.withzephyr.com/">Zephyr </a> 
+              to build a production data pipeline,
+              integrating their <a className="text-green-500" href="https://www.withzephyr.com/#features">computer vision models </a> 
+              to create a <a className="text-green-500" href="https://www.figma.com/slides/bnkBfhhhMLsbXavXDzWLHd/Zephyr-x-Atlas-Digital--FINAL-?node-id=11-1202&t=9uaNrLxoc1lL3CN0-0">full-court basketball homorgaphy</a>.
+              <br></br>
+              <br></br>
+              This summer, I'm excited to be working as a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a> on the integrations developer platform team. 
             </p>
             <div className="flex justify-center">
               <a

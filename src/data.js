@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Zephyr",
+    subtitle: "Python, Roboflow, Supervision, Ultralytics",
+    description: "Created a full-court basketball homography using Roboflow computer vision models to track player movement and ball trajectory. Integrated with Zephyr's existing data pipeline to deliver real-time insights to top-25 NCAA basketball teams.",
+    image: "./Zephyr.png",
+    link: "https://www.figma.com/slides/bnkBfhhhMLsbXavXDzWLHd/Zephyr-x-Atlas-Digital--FINAL-?node-id=1-284&t=Q4ILJVmnvODhzuMt-0"
+  },
+  {
     title: "Puppod ML API",
     subtitle: "Python, Flask, scikit-learn, Pandas, Heroku, Supabase",
     description: "Developed and deployed a full-stack machine learning application using Flask, scikit-learn, and React.js to analyze 130k+ user game sessions, predict key user data features, and deliver real-time insights via a Heroku-hosted API.",
@@ -21,14 +28,14 @@ export const projects = [
     image: "./AD-Portal-IMG.png",
     link: "https://www.portal.atlasdigital.org/",
   },
-  {
-    title: "Michigan Mentors",
-    subtitle: "Director of CS Program",
-    description:
-      "Directing and managing our pro-bono intro to computer science program. More details at: https://www.mzbtutors.com/michigan-mentors",
-    image: "./MM Unit 1 - Google Slides - Google Chrome 2024-06-03 10-55-38.gif",
-    link: "https://www.mzbtutors.com/michigan-mentors",
-  },
+  // {
+  //   title: "Michigan Mentors",
+  //   subtitle: "Director of CS Program",
+  //   description:
+  //     "Directing and managing our pro-bono intro to computer science program. Taught over 30 students last summer, and scaling to even more this summer. Stay tuned!",
+  //   image: "./MM Unit 1 - Google Slides - Google Chrome 2024-06-03 10-55-38.gif",
+  //   link: "https://www.mzbtutors.com/michigan-mentors",
+  // },
   {
     title: "Saphran Inc Data Dashboard",
     subtitle: "JavaScript, HTML/CSS",
