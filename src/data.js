@@ -45,7 +45,7 @@ export const projects = [
     link: "saphran.com",
   },
   {
-    title: "Machience Learning Forum Post Classifier",
+    title: "Machine Learning Forum Post Classifier",
     subtitle: "C++",
     description:
       "Designed and trained naïve Bayes machine learning classifier that reads and processes student posts via CSV files, calculates log-probability score of each post, and predicts labels for each given Piazza post with 87% accuracy (n=3000). Code availible upon request.",
