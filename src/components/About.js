@@ -11,7 +11,7 @@ export default function About() {
               Hello, I'm Nicholas <br></br>
               I'm 
               <Typewriter
-                words={[ " a SWE Intern at Datadog",
+                words={[ " a former SWE Intern at Datadog",
                 " interested in AI/ML products, scalable backend systems, and high-preformance computing.", 
                 " happy to see you here!",
                 " a Michigan Wolverine, Go Blue!"]}
@@ -28,13 +28,13 @@ export default function About() {
               and the Director and Co-Founder of the CS Program 
               at <a className="text-green-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
               <br></br><br></br>
+              This past summer, I was a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a> on the Integrations Developer Platform team.
+              Check out my three intern projects <a href="./Nicholas_Walvoord_resume.pdf" target="_blank" rel="noreferrer" className="text-purple-500">here</a>.
+              <br></br><br></br>
               This past semester, I worked the startup <a className="text-green-500" href="https://www.withzephyr.com/">Zephyr </a> 
               to build a production data pipeline,
               integrating their <a className="text-green-500" href="https://www.withzephyr.com/#features">computer vision models </a> 
               to create a <a className="text-green-500" href="https://www.figma.com/slides/bnkBfhhhMLsbXavXDzWLHd/Zephyr-x-Atlas-Digital--FINAL-?node-id=11-1202&t=9uaNrLxoc1lL3CN0-0">full-court basketball homorgaphy</a>.
-              <br></br>
-              <br></br>
-              This summer, I'm excited to be working as a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a> on the integrations developer platform team. 
             </p>
             <div className="flex justify-center">
               <a
