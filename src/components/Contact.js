@@ -47,7 +47,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="w-1/4"
               >
-                <FaLinkedin className="text-green-500 hover:text-blue-700 w-full h-full" />
+                <FaLinkedin className="text-blue-500 hover:text-blue-700 w-full h-full" />
               </a>
               <a
                 href="https://github.com/nwlvrd"

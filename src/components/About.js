@@ -24,22 +24,19 @@ export default function About() {
               />
             </h1>
             <p className="mb-8 leading-relaxed">
-              Hello! I'm a computer science & math student at the University of Michigan Ann Arbor 
+              Hello! I'm a computer science & math student at the University of Michigan Ann Arbor, 
+              originally from the great city of Chicago,
               and the Director and Co-Founder of the CS Program 
-              at <a className="text-green-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
+              at <a className="text-yellow-500" href="https://www.mzbtutors.com/michigan-mentors">Michigan Mentors</a>.
               <br></br><br></br>
-              This past summer, I was a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a> on the Integrations Developer Platform team.
-              Check out my three intern projects <a href="./Nicholas_Walvoord_resume.pdf" target="_blank" rel="noreferrer" className="text-purple-500">here</a>.
-              <br></br><br></br>
-              This past semester, I worked the startup <a className="text-green-500" href="https://www.withzephyr.com/">Zephyr </a> 
-              to build a production data pipeline,
-              integrating their <a className="text-green-500" href="https://www.withzephyr.com/#features">computer vision models </a> 
-              to create a <a className="text-green-500" href="https://www.figma.com/slides/bnkBfhhhMLsbXavXDzWLHd/Zephyr-x-Atlas-Digital--FINAL-?node-id=11-1202&t=9uaNrLxoc1lL3CN0-0">full-court basketball homorgaphy</a>.
+              This past summer, I was a software engineering intern at <a className="text-purple-500" href="https://www.datadoghq.com/">Datadog</a> in New York on the Integrations Developer Platform team.
+              This semester, I'm leading a team working with <a className="text-blue-500" href="https://www.neptune.rent/">Neptune </a> 
+              to build their custom GTM platform for real estate.
             </p>
             <div className="flex justify-center">
               <a
                 href="#contact"
-                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                className="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                 Contact Me
               </a>
               <a
@@ -51,7 +48,7 @@ export default function About() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded border-2 border-green-500"
+              className="object-cover object-center rounded border-2 border-gray-500"
               alt="hero"
               src="./2023-24headshot.jpg.JPG"
             />
