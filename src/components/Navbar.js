@@ -27,7 +27,7 @@ export default function Navbar() {
             className="mr-5 hover:text-white">
             LinkedIn
           </a>
-          <a href="./Nicholas_Walvoord_resume.pdf" target="_blank" rel="noreferrer" className="text-green-500 font-bold">
+          <a href="./Nicholas_Walvoord_resume.pdf" target="_blank" rel="noreferrer" className="mr-5 hover:text-white font-bold">
             Resume
           </a>
         </nav>

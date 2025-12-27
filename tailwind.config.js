@@ -8,11 +8,7 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      colors: {
-        'datadog': '#632CA6'
-      }, 
-    }
+    extend: {}
   },
   variants: {
     extend: {},
