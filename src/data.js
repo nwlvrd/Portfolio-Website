@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Neptune",
-    subtitule: "TypeScript, Vercel, Supabase", 
+    subtitle: "TypeScript, Vercel, Supabase", 
     description: "Led team of 7 analysts and designers to develop Neptune's GTM platform with Apollo API integreation for contact sourcing, custom auto-populating email templates, and automated email sending with Brevo API.",
     image: "./Neptune.png",
     link: "https://docs.google.com/presentation/d/1VqpmOvN0fFhenJK0C8mRA-F3qEFUlBq0n6u2Fp-AMno/edit?usp=sharing"
@@ -23,7 +23,7 @@ export const projects = [
   {
     title: "Simbi Mobile App",
     subtitle: "React Native, TypeScript, Android Studio, Expo",
-    description: "Constructed and styled over 16 app screens and components for non-profit Simbi (YC S16) modernizing app experience for 1k+ active users.",
+    description: "Constructed and styled over 16 app screens and components for non-profit Simbi (YC S16), modernizing app experience for 1k+ active users. Collaborated with EM to resolve merge conflicts and coordinate team springs.",
     image: "./Simbu-image.png",
     link: "https://simbi.com/"
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: "Application and Recruitment Portal",
     subtitle: "React, TailwindCSS, Firebase, Firestore",
     description:
-      "Full-stack web application built for club recruitment. Implemented 20+ dynamic front-end elements and a back-end scaling to 200+ applicants. Code availible upon request.",
+      "Full-stack web application built for Atlas Digital Consulting Club recruitment. Implemented frontend views and user role privlages in JavaScript and deployed platform to 400+ applicants.",
     image: "./AD-Portal-IMG.png",
     link: "https://www.portal.atlasdigital.org/",
   },
@@ -47,7 +47,7 @@ export const projects = [
     title: "Machine Learning Forum Post Classifier",
     subtitle: "C++",
     description:
-      "Designed and trained naïve Bayes machine learning classifier that reads and processes student posts via CSV files, calculates log-probability score of each post, and predicts labels for each given Piazza post with 87% accuracy (n=3000). Code availible upon request.",
+      "Designed and trained naïve Bayes machine learning classifier that reads and processes student posts via CSV files, calculates log-probability score of each post, and predicts labels for each given Piazza post with 87% accuracy (n=3000).",
     image: "./Screenshot 2024-06-03 113349.png",
     link: "https://github.com/tdvalencia/p5-ml",
   },
